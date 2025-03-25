@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kmeans-gpu"
+version = "0.1"
+description = "A k-means implementation for GPU"
+authors = [
+    { email="" }
+]
+dependencies = [
+    "torch"
+]
